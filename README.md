@@ -1,7 +1,5 @@
 # Water.css
 
-[![Water.css](logo.svg)](https://watercss.netlify.com/)
-
 *A just-add-css collection of styles to make simple websites just a little nicer*
 
 [![On reddit](https://img.shields.io/badge/on-reddit-orange.svg)](https://www.reddit.com/r/webdev/comments/b9m6mv/watercss_a_collection_of_neat_styles_for_simple/)
@@ -78,10 +76,6 @@ Do you want to make your own theme different from the light or dark themes? Sinc
 - `$form-placeholder`
 - `$form-text`
 
-Wanna quickly try out theming without installing anything or just explore our build environment?
-
-[![Try on repl.it](https://repl-badge.jajoosam.repl.co/edit.png)](https://repl.it/github/https://github.com/amasad/water.css?lang=nodejs&ref=button)
-
 ### Based on an existing theme
 
 You can base your theme off of the existing light or dark themes, which already have some variables predefined to make it easier for you.
@@ -121,9 +115,3 @@ $form-text: #ffffff !default;
 ```
 
 You can also only import parts you want, but this is not recommended. See the `src/parts/` folder for a list of parts.
-
-## Todos
-
-- Add screenshots
-- [Jekyll theme](https://github.com/kognise/water.css/issues/18)
-- [NPM package](https://github.com/kognise/water.css/issues/41)
