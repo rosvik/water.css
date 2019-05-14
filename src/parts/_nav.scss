@@ -1,0 +1,19 @@
+nav {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	background-color: $background-alt;
+	transform: translate(-1000px,0);
+	
+	margin: 0;
+	padding: 0 980px 0 1000px;
+	* {
+		display: inline-block;
+		// background-color: red;
+		padding: 0 20px 0 20px;
+	}
+}
+
+html {
+	overflow-x: hidden;
+}
