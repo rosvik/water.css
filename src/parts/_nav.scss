@@ -1,16 +1,19 @@
 nav {
 	width: 100%;
-	position: absolute;
-	top: 0;
+	height: 60px;
 	background-color: $background-alt;
-	transform: translate(-1000px,0);
-	
-	margin: 0;
-	padding: 0 980px 0 1000px;
+	transform: translate(-10020px, 0);
+	margin: -20px 0 20px 0;
+	padding: 0 10000px 0 10000px;
+
 	* {
-		display: inline-block;
-		// background-color: red;
-		padding: 0 20px 0 20px;
+		padding: 20px;
+		max-height: 20px;
+		margin: 0;
+		float: left;
+	}
+	*:hover {
+		background-color: $background;
 	}
 }
 
