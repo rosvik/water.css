@@ -30,7 +30,7 @@ You probably don't want to use it for a production app or something that has mor
 Just stick this in your head:
 
 ```html
-<link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/dark.min.css'>
+<link rel='stylesheet' href='https://qore.no/res/water.css/dist/dark.min.css'>
 ```
 
 Well, there's a dark theme and a light theme. If you want the light theme, use `light.min.css` instead of `dark.min.css`. See [Theming](#theming) to make your own theme!
