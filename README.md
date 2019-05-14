@@ -55,7 +55,13 @@ If you decide to contribute, after downloading a copy of the repository make sur
 $ npm run dev
 ```
 
-And make sure to run `yarn build` before pushing any changes! Thanks for taking the time to contribute :)
+Alternatively, if you don't want **a >100 MB node_modules folder to compile 2 KB of css**, you can run sass direcly with
+
+```
+$ sass --watch src/:dist/
+```
+
+Make sure to run `npm run build` before pushing any changes! Thanks for taking the time to contribute :)
 
 ## Theming
 
